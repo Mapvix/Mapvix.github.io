@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+
+    <nav class="navigation">
+
+        <a href="./Contact.html"><i class="fa fa-solid fa-phone"></i>CONTACT</a>
+        <a href="./Index.html"><i class="fa fa-solid fa-house"></i>HOME</a>
+        <a href="./game.html"> GAME </a>
+
+    </nav>
+
+    <h1 class="firstHeader"> GAME </h1>
+
+    <br>
+    <br>
+
+    <img class="dropCircle" id="dropCircle" onclick="circleinput()" src="/circle2.png" width="5%">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <img class="circle" onclick="circleinput()" src="/Circle.png" width="5%" id="whiteCircle">
+
+
+    <script>
+
+        var whiteCirclePosition = document.getElementById("whiteCircle").position()
+
+        console.log(whiteCirclePosition)
+
+        function circleinput() {
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>
